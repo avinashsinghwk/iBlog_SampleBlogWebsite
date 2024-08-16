@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left > p{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 60px;   
+}
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+}
+.nav-left ul li a:hover{
+    font-size: 19.4px;
+}
+
+
+
+
+
+.content{
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content::after{
+    content: "";
+    background-image: url("../Img/article2.png");
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 12px;
+}
+.content-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.content-left h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+.content-left p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.content-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+.content-right img{
+    height: 207px;
+    width: 207px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+
+.home-articles{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-color: rgba(244, 244, 247, 0.802);
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    top: 30px;
+    right: 75px;
+    width: 116px;
+    height: 67px;
+    border: 1.5px solid grey;
+    border-radius: 4px;
+}
+.year-box > h4{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(149, 77, 77);
+}
+.year-box label{
+    font-size: 14px;
+    text-align: center;
+    margin: 0 5px;
+}
+.year-box label input{
+    width: 12px;
+}
+.home-articles > h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 0 5px 20px;
+}
+.home-article{
+    display: flex;
+    padding: 8px 20px;
+}
+.home-article-img img{
+    width: 235px;
+    height: 181px;
+}
+.home-article-content{
+    align-self: center;
+    padding-left: 12px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: rgb(184, 51, 51);
+}
+.home-article-content span{
+    font-size: 15px;
+}
+
+
+
+
+
+
+.footer{ 
+    padding: 20px 10px;
+    text-align: center;
+    background-color: rgb(199, 180, 216);
+}

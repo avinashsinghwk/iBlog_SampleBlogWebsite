@@ -1,0 +1,32 @@
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 65vw;
+}
+.m-auto{
+    margin: auto;
+}
+.form-input{
+    outline: none;
+    padding: 3px 6px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 13px;
+}
+.btn{
+    padding: 2.5px 10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(240, 125, 125);
+    color: white;
+}

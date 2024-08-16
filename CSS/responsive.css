@@ -1,0 +1,134 @@
+@media only screen and (max-width: 900px){
+    /* Index - CSS */
+
+    .navigation{
+        flex-direction: column;
+        height: 91px;
+        margin-bottom: 15px;
+    }
+    .nav-left{
+        flex-direction: column;
+    }
+    .nav-left ul{
+        margin: 8px 0 0 0;
+    }
+    .form-input{
+        width: 145px;
+        margin: 0 6px;
+        font-size: 13px;
+    }
+    .btn{
+        padding: 3px 4px;
+        font-size: 13px;
+    }
+    .content{
+        min-height: 250px;
+    }
+    .content-left{
+        width: 85%;
+        justify-content: flex-start;
+        margin-top: 12px;
+    }
+    .content-right{
+        display: none;
+    }
+    .content-right img{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article-img{
+        text-align: center;
+        overflow: hidden;
+    }
+    .home-article-img img {
+        width: 190px;
+        height: 150px;
+    }
+    .home-article-content {
+        text-align: center;
+    }
+    .home-article-content a h4{
+        font-size: 16px;
+    }
+    .home-article-content span{
+        font-size: 12px;
+    }
+    .year-box{ 
+        top: 14px;
+        right: 27px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+
+    /* Blogpost - CSS */
+
+    .home-article{
+        background-color: unset;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 640px){
+    /* Index - CSS */
+
+    .content-left h2{
+        font-size: 22px;
+    }
+    .content-left p{
+        font-size: 15px;
+    }
+    .home-articles{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-articles > h3{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .year-box{
+        width: 110px;
+        height: 17px;
+        position: static;
+        margin: 5px 9px;
+        display: flex;
+        align-items: last baseline;
+    }
+    .year-box > h4{
+        font-size: 15px;
+    }
+    .year-box label{
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+    }
+    .year-box label input{
+        width: 8px;
+    }
+
+    /* Blogpost - CSS */
+    .blogpost-img{
+        height: auto;
+    }
+    .home-article-content{
+        width: auto;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 297px){
+    .form-input{
+        width: 53%;
+    }
+}
