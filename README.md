@@ -32,7 +32,7 @@ To get started with iBlog, follow these steps:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd iblog
+    cd iBlog_SampleBlogWebsite
     ```
 
 ## Usage
